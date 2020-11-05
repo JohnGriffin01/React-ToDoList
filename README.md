@@ -1,5 +1,18 @@
 <img width="432" alt="Screen Shot 2020-11-05 at 12 45 25 PM" src="https://user-images.githubusercontent.com/54604672/98289049-db37f400-1f64-11eb-9086-5e99edbbadd0.png">
 
+Hierarchy:
+1. Todo List: Container (orange)
+2. Add Item: Text field that receives user input (yellow)
+3. Item Form: Displays label, checkbox, and delete box. (blue)
+
+## Minimal representation of state
+The checkbox / delete button for each task do not need to be seen by other componenets. 
+The AddItem form takes the user input and displays it. 
+
+Therefore, I am using the following states:
+Enter task: lives in container
+Add Task: lives in container
+Delete Task: lives in the Product Table
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
